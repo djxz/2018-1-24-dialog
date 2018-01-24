@@ -1,0 +1,45 @@
+.mark{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,.4)
+}
+.dialog{
+	width: 400px;
+	height: 300px;
+	border:1px solid #666;
+	position: absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+}
+.tit{
+	width: 100%;
+	height: 45px;
+	border-bottom:1px solid #666;
+	text-align:center;
+	line-height: 45px;
+}
+.close{
+	float: right;
+	line-height: 45px;
+	padding-right:10px;
+	cursor:pointer;
+}
+.btn{
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translateX(-50%);
+	width: 70px;
+	height: 30px;
+	background: #f09;
+	border:none;
+	outline: none;
+	color:#fff;
+	border-radius:3px;
+}
